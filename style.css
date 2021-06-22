@@ -1,0 +1,43 @@
+.centered-content {
+  display: grid;
+  place-items: center;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.h-3 {
+  height: 3px;
+}
+
+.w-100 {
+  width: 200px;
+}
+
+.bg-gray {
+  background: rgba(128, 128, 128, 0.568);
+}
+
+#slider {
+  position: relative;
+  display: flex;
+}
+
+#circle {
+  height: 15px;
+  width: 15px;
+  background: black;
+  position: absolute;
+  top: -5px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2;
+  background: green;
+}
+
+#visual-value {
+  background: green;
+  height: 3px;
+  z-index: 1;
+}
